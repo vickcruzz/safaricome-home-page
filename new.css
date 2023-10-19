@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav.links a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav.links a.active {
+    font-weight: bold;
+}
+
+button.sign {
+    background-color: white;
+
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.safcom {
+
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.world, .analyse, .sharing, .tunukiwa, .discover {
+    margin-top: 20px;
+}
+
+.safari {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+h10, h11, h12, h13, h14 {
+    margin-top: 50px;
+}
+
+

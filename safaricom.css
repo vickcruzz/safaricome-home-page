@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.links a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.name {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  z-index: 3;
+}
+.logo {
+  margin-left: 1px;
+}
+.home {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+}
+.home-content {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.safworld {
+  margin: 5px 10px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  float: right;
+}
+.home-content h1 {
+  font-size: 60px;
+  color: black;
+  font-family: sans-serif;
+  margin-right: 15px;
+}
+.sign {
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: rgb(63, 140, 63);
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+}
+.home-content h2 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(70, 179, 70);
+}
+.home-content p {
+  font-size: 20px;
+  align-items: center;
+}
+.safcom {
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: rgb(87, 171, 87);
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+}
+.one {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+}
+ .Heading{
+  font-size: 40px;
+text-align: center;
+margin-right: 35px;
+  
+}
+.world {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.analyse {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.world > p{
+  flex: 2;
+}
+ .safari{
+  flex: 1;
+}
+.experience {
+  position: relative;
+  display: flex;
+}
+
+.Manage-fibre {
+  position: relative;
+}
+.account {
+  width: 50%;
+  float: left;
+}
+.Manage-postpay {
+  position: relative;
+}
+
+.Heading2{
+  font-size: 40px;
+  text-align: center;
+}
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  background-color: aliceblue;
+}
+
+.span1
+{
+  position: relative;
+  flex: 1;
+
+  align-items: center;
+  justify-content:right;
+  padding: 20px;
+  display: block;
+
+}
+.span2{
+  position: relative;
+  display: block;
+  flex: 1;
+
+  align-items: center;
+  justify-content:right;
+  margin-left: 60px;
+}
+.statement{
+font-family: 'Courier New', Courier, monospace;
+}
+.sharing{
+  margin-top:50px;
+}
+.tunukiwa{
+
+}
+.discover{
+  margin-top: 50px;
+}
+
+.statement1{
+  font-size:20px ;
+  font-weight: bold;
+  
+
+}
+.sharing1{
+  font-size:20px ;
+  font-weight: bold;
+}
+.tunukiwa1{
+  font-size:20px ;
+  font-weight: bold;
+
+}
+.Discover1{
+  font-size:20px ;
+  font-weight: bold;
+  margin bottom: 30px;
+
+}
+
+.experience{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+}
+.experience-more{
+  flex: 1;
+  align-items: center;
+  justify-content: right;
+  float:right;
+
+}
+.exp {
+  margin: 5px 10px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  float:left;
+}
+.experience-more h10 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-right: 15px;
+}
+.manage-account{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+}
+.Manageacount{
+  flex: 1;
+  align-items: center;
+  justify-content: right;
+  float:right;
+
+}
+.manageimg {
+  margin: 5px 10px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  float:left;
+}
+.Manageacount h11 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-right: 15px;
+}
+
+.Manage-fibre{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+}
+.Fibre{
+  flex: 1;
+  align-items: center;
+  justify-content: right;
+  float:left;
+
+}
+.fibreimg{
+  margin: 5px 10px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  float:left;
+}
+.Manage-fibre h12{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-right: 15px;
+}
+
+.Manage-postpay{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+}
+.postpay{
+  flex: 2;
+  align-items: center;
+  justify-content: right;
+  float:right;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: rgb(45, 173, 45);
+    border: none;
+    font-size:2rem;
+    font-weight: 600;
+    margin: 2rem 1;
+    padding: 4rem 4rem;
+  }
+.postpayimg {
+  margin: 5px 10px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  float:left;
+}
+.Manage-postpay h12{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-right: 15px;
+}
+.Testimonials{
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: sans-serif;
+}
+.Testimonials h14{
+  font-size: 30px;
+  color: rgb(69, 174, 69);
+}
+.Testimonials p{
+  font-size: 30px;
+  font-weight: bold;
+}
+.Users{
+  position: relative;
+  display: flex;
+  background-color: aliceblue;
+}
+.Users1{
+  flex: 1;
+  background-color: white;
+}
+.Users2{
+  flex: 1;
+  background-color: white;
+}
+.Users3{
+  flex: 1;
+  background-color: white;
+}
